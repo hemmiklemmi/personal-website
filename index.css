@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+.section{
+    margin-left: 10vw;
+    margin-top: 30vh;
+}
+.icons{
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+a:hover{
+    opacity: 0.5;
+}
+#home h1 {
+    font-size: 6rem;
+}
+#home p{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.emphasis{
+    color: tomato;
+}
+#menu-button{
+    right: 2rem;
+    top: 2rem;
+    position: fixed;
+}
+#menu{
+    position:fixed;
+    top: 30vh;
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+
+}
+.menu-items{
+    font-size: 4rem;
+    padding-top: 2rem;
+}
+button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: inherit;
+    outline: inherit;
+}
+button:hover{
+    opacity: 0.5;
+}
+#contact{
+    background-color: rgba(110, 102, 102, 0.5);
+    border-radius: 20px;
+    font-size: 4rem;
+    position:fixed;
+    top: 45vh;
+    left: 65vh;
+    display: none;
+    width: 35%;
+}
+#project-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: none;
+    flex-wrap: wrap;
+}
+
+.project-image {
+    width: 9rem;
+    height: 9rem;
+    opacity: 0.75;
+    object-fit: cover;
+    margin-right: 5rem;
+}
+
+.project-name {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-right: 5rem;  
+}  
+h2{
+   position: fixed;
+   top: 10rem;
+}
+a{
+    text-decoration: none;
+}
